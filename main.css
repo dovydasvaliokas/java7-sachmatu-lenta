@@ -1,0 +1,58 @@
+
+
+.flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    align-items: stretch;
+}
+
+.flex-container > div
+{
+    background-color: red;
+    border: 1px solid black;
+    flex: 1 0 12.5%;
+    height: 10vh;
+}
+
+.soniniai-skaiciai
+{
+    width: 5%;
+    float: left;
+}
+
+.soniniai-skaiciai li
+{
+    height: 10vh;
+    line-height: 10vh;
+    list-style-type: none;
+}
+
+.virsutines-raides
+{
+    height: 5vh;
+    margin-left: 5%;
+    width: 95%;
+}
+
+.virsutines-raides ul
+{        
+    display: flex;
+    align-items: stretch;
+    width: 95%;
+    list-style-type: none;
+    padding-inline-start: 0px;
+
+}
+
+.virsutines-raides li
+{
+    width: 12.5%;
+    text-align: center;
+}
+
+.didesnis-sriftas
+{
+    font-size: 26px;
+}
